@@ -1,0 +1,53 @@
+
+
+.App{
+  height: 100vh;
+  text-align: center;
+  background-color: black;
+  display: flex;
+  flex-direction: column ;
+  justify-content: center;
+  align-items: center;
+}
+.clock{
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(white,black);
+  height: 200px;
+  width: 380px;
+  color: yellow;
+  text-shadow: 1px 1px 7px;
+  border-radius: 15px;
+  border: 2px solid black;
+  box-shadow: 0 0 5px 25px;
+}
+
+.clock section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.clock section p{
+  font-size: 3rem;
+  margin: 10px ;
+}
+.clock section small{
+  color: white;
+  text-shadow: none;
+  
+}
+
+.App h1{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  align-content: top;
+  color: white;
+  
+}
